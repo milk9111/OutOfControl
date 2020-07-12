@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{536EC4FF-C41A-09C9-16EA-0857E37C6BA6}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UIManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ScrewHole.cs" Line="30" Column="10" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="32" Column="7" />
+      <File FileName="Assets/Scripts/Screw.cs" Line="45" Column="10" />
+      <File FileName="Assets/Scripts/Car.cs" Line="112" Column="18" />
+      <File FileName="Assets/Scripts/MainMenuManager.cs" Line="17" Column="28" />
+      <File FileName="Assets/Scripts/DayStart.cs" Line="29" Column="37" />
+      <File FileName="Assets/Scripts/SoundManager.cs" Line="8" Column="39" />
+      <File FileName="Assets/Scripts/Util.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/UIManager.cs" Line="15" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OutOfControl" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="UIManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="baacc222-a2e4-4982-8e34-024929f7e7bd" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/connor/git/OutOfControl/Assets/Scripts/Quota.cs" relfile="Assets/Scripts/Quota.cs" line="23" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

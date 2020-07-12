@@ -15,8 +15,8 @@ public class CreditsManager : MonoBehaviour
 
     void Start()
     {
-        terminationLetter.SetActive(true);
-        rollCredits = false;
+        //terminationLetter.SetActive(true);
+        rollCredits = true;
     }
 
     void Update()

@@ -151,11 +151,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1339867046}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2352.8}
+  m_AnchoredPosition: {x: 0, y: -3279}
   m_SizeDelta: {x: 1107.1, y: 3655.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19740498
@@ -434,7 +434,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &244543387
 RectTransform:
   m_ObjectHideFlags: 0
@@ -454,7 +454,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.025024414, y: 0}
-  m_SizeDelta: {x: 0.049987793, y: 0}
+  m_SizeDelta: {x: 0.05001831, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &244543388
 MonoBehaviour:
@@ -607,7 +607,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 3803}
+  m_AnchoredPosition: {x: 0, y: 4800}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &853983939
@@ -644,8 +644,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 33.1, y: -516.9}
-  m_SizeDelta: {x: 734.2, y: 509}
+  m_AnchoredPosition: {x: 22.200012, y: -421.2}
+  m_SizeDelta: {x: 570.1, y: 503.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &853983941
 MonoBehaviour:
@@ -667,7 +667,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 76360424a63f45545bae73c606efe5bf, type: 3}
-    m_FontSize: 30
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -692,6 +692,89 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853983939}
+  m_CullTransparentMesh: 0
+--- !u!1 &1012025601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1012025602}
+  - component: {fileID: 1012025604}
+  - component: {fileID: 1012025603}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1012025602
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012025601}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1339867046}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0.002533, y: -773}
+  m_SizeDelta: {x: 1107.1, y: 1446.7}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1012025603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012025601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 76360424a63f45545bae73c606efe5bf, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "From: <UPPER MANAGEMENT>\nTo: Employee no. 54679\nDear <FIRST NAME>, \n\n\tThanks
+    for all your hard work these past 7 days! Truly a fantastic job. One of the best
+    we've seen here at FAC.\n\n\tWhich makes it hard for me to inform you <FIRST
+    NAME> that we can no longer afford to keep your department. $15/hr for one person
+    is far too much for us to bare any more. I know you'll understand. Every penny
+    counts on the road to a $1 trillion dollar valuation. \n\nThanks again, \n<MANAGER
+    NAME>"
+--- !u!222 &1012025604
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012025601}
   m_CullTransparentMesh: 0
 --- !u!1 &1336622185
 GameObject:
@@ -766,6 +849,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1012025602}
   - {fileID: 19740497}
   - {fileID: 2097131961}
   m_Father: {fileID: 166803413}
@@ -773,7 +857,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -698}
+  m_AnchoredPosition: {x: 0, y: -1263}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1339867047
@@ -826,8 +910,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   terminationLetter: {fileID: 244543386}
   _target: {fileID: 672316796}
-  scrollSpeed: 100
-  rollCredits: 0
+  scrollSpeed: 75
+  rollCredits: 1
 --- !u!1 &1786179109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,7 +1102,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 177}
+  m_AnchoredPosition: {x: 0, y: 24}
   m_SizeDelta: {x: 203.5, y: 93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1880393513
@@ -1143,11 +1227,11 @@ RectTransform:
   m_Children:
   - {fileID: 1857167436}
   m_Father: {fileID: 1339867046}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -3191.2522}
+  m_AnchoredPosition: {x: 0, y: -4359}
   m_SizeDelta: {x: 179.72, y: 84.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2097131963

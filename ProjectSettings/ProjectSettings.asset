@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: Connor & Alena Lundberg
   productName: Don't Screw It Up
-  defaultCursor: {fileID: 2800000, guid: c40641e6ee48846bd87a2fd11f8e8dbb, type: 3}
+  defaultCursor: {fileID: 2800000, guid: efef9fdc2f07ae047bf471b5afaa0eb8, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
